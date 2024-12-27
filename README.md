@@ -1,1 +1,2 @@
-# pwrupp-cdn.github.io
+# pwrupp.github.io
+Yay for Free CDNs! 😊
