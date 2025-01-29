@@ -1,0 +1,162 @@
+<!--- FEATURED CATEOGRIES --->
+<section id="category" style="" class="py-5">
+	<div class="container">
+		<!---<div class="category-head text-center">
+				            <h3 class="p-2">Featured Categories</h3>
+                        	            <p class="feat-txt pb-3">Description</p>
+            		</div>--->
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-12">	
+                <div class="box mb-3">
+                    <img src="https://store.pwrupp.com/wp-content/uploads/2025/01/category-marauder-gear.jpg">
+                    <div class="cat_btn">
+                        <a href="https://store.pwrupp.com/product-category/marauders/" class="px-4 px-md-3 px-lg-4 py-2">Marauder Gear</a>
+                    </div>
+                    <div class="box-content">
+                        <a href="https://store.pwrupp.com/product-category/marauders/" class="hvr-btn">Marauder Gear</a>
+                    </div>
+                </div>
+        	</div>
+        	<div class="col-lg-3 col-md-3 col-12">
+                <div class="box mb-3">
+                    <img src="https://store.pwrupp.com/wp-content/uploads/2025/01/unisex-champion-tie-dye-hoodie-black-zoomed-in-3-6776a23dee7ce-1024x1024.png">
+                    <div class="cat_btn">
+                        <a href="https://store.pwrupp.com/product-category/all-clothing/hoodies/" class="px-4 px-md-2 px-lg-4 py-2">Hoodies</a>
+                    </div>
+                    <div class="box-content">
+                        <a href="https://store.pwrupp.com/product-category/all-clothing/hoodies/" class="hvr-btn">Hoodies</a>
+                    </div>
+                </div>
+        	</div>
+        	<div class="col-lg-3 col-md-3 col-12">
+                <div class="box mb-3">
+                    <img src="https://store.pwrupp.com/wp-content/uploads/2024/07/sublimated-towel-white-30x60-beach-66a401f1ea55c.png">
+                    <div class="cat_btn">
+                        <a href="https://store.pwrupp.com/product-category/home-living/towels/" class="px-4 px-md-2 px-lg-4 py-2">Towels</a>
+                    </div>
+                    <div class="box-content">
+                        <a href="https://store.pwrupp.com/product-category/home-living/towels/" class="hvr-btn">Towels</a>
+                    </div>
+                </div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-12">
+                <div class="box mb-3">
+                    <img src="https://store.pwrupp.com/wp-content/uploads/2024/08/16883244425134496686_2048-1024x1024.jpeg">
+                    <div class="cat_btn">
+                        <a href="https://store.pwrupp.com/product-category/all-clothing/footwear/" class="px-4 px-md-3 px-lg-4 py-2">Footwear</a>
+                    </div>
+                    <div class="box-content">
+                        <a href="https://store.pwrupp.com/product-category/all-clothing/footwear/" class="hvr-btn">Footwear</a>
+                    </div>
+                </div>
+        	</div>
+        	<div class="col-lg-3 col-md-3 col-12">
+                <div class="box mb-3">
+                    <img src="https://store.pwrupp.com/wp-content/uploads/2024/10/all-over-print-unisex-athletic-long-shorts-white-front-66fdac4caef09-1024x1024.png">
+                    <div class="cat_btn">
+                        <a href="https://store.pwrupp.com/product-category/all-clothing/shorts-pants/" class="px-4 px-md-3 px-lg-4 py-2">Shorts / Pants</a>
+                    </div>
+                    <div class="box-content">
+                        <a href="https://store.pwrupp.com/product-category/all-clothing/shorts-pants/" class="hvr-btn">Shorts / Pants</a>
+                    </div>
+                </div>
+        	</div>
+        	<div class="col-lg-6 col-md-6 col-12">
+                <div class="box mb-3">
+                    <img src="https://store.pwrupp.com/wp-content/uploads/2025/01/category-blankets.png">
+                    <div class="cat_btn">
+                        <a href="https://store.pwrupp.com/product-category/home-living/blankets/" class="px-4 px-md-3 px-lg-4 py-2">Blankets</a>
+                    </div>
+                    <div class="box-content">
+                        <a href="https://store.pwrupp.com/product-category/home-living/blankets/" class="hvr-btn">Blankets</a>
+                    </div>
+                </div>		
+			</div>
+		</div>
+	</div>
+</section>
+<style>
+/*-----------category------------------*/
+#category .box-content {
+    display: block;
+    text-transform: uppercase;
+}
+
+#category .cat_btn a {
+    background: rgb(18, 18, 18);
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#category {
+    background: #f5fdfd;
+}
+#category .cat_btn {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+#category .box{
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+#category .box:before{
+    content: "";
+    background: #000;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5) inset;
+    opacity: 0;
+    transform: perspective(1000px) rotateX(90deg);
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    transition: all 0.3s ease-in;
+}
+#category .box:hover:before{
+    opacity: 1;
+    transform: perspective(1000px) rotateX(0);
+}
+#category .box img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease 0s;
+}
+#category .box:hover img{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+#category .box .box-content{
+    color: #fff;    
+    text-align: center;
+    width: 80%;
+    padding: 15px 10px;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-200%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transition: all 0.3s ease-out;
+}
+#category .box:hover .box-content{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-60%);
+}
+#category .box:hover .cat_btn a{
+    opacity: 0;
+}
+#category .box-content a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+</style>
